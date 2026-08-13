@@ -1,84 +1,55 @@
 # Nickhil Earla
 
 > **Student Founder & AI Product Builder**  
-> *Architecting human-centered AI products, autonomous agent security research, and high-throughput data intelligence systems.*
+> *Building AI products across financial education, cybersecurity, and operational data systems.*
 
-[Website](https://usefinora.com/about) • [MemShield Paper](https://revsoc.ai/research/memshield) • [Finora Platform](https://usefinora.com) • [LinkedIn](https://linkedin.com)
-
----
-
-## Technical Overview & Focus Areas
-
-I build software platforms and security systems designed to turn complex data into usable, high-leverage decisions:
-
-```mermaid
-graph TD
-    A["Nickhil Earla (Portfolio & Research)"] --> B["AI Agent Security"]
-    A --> C["Product Engineering"]
-    A --> D["Operational Data Systems"]
-    A --> E["Computer Vision & Tools"]
-
-    B --> B1["MemShield: 3-Layer Defense against Persistent Memory Poisoning"]
-    C --> C1["Finora: AI-Powered Financial Education Platform"]
-    D --> D1["PermitVision: Municipal Permit Scoring (211k+ Records)"]
-    D --> D2["Threat Intelligence Hub: Serverless OSINT Feed Aggregator"]
-    E --> E1["FocusGuard: Local YOLO Phone Detection & Focus Tracking"]
-```
+[Finora](https://usefinora.com) • [MemShield Paper](https://revsoc.ai/research/memshield) • [LinkedIn](https://www.linkedin.com/in/nickhil-earla)
 
 ---
 
-## Featured Work & Case Studies
+## Featured Work
 
-### 1. 🛡️ [MemShield Research](https://github.com/MysticX662/MemShieldResearch)
-*Three-layer defense architecture for persistent memory poisoning in stateful autonomous AI agents.*
-- **Role**: Lead Author & Security Researcher
-- **Key Contributions**: Modeled persistent RAG memory injection attacks; built a 3-layer inspection pipeline (Static Heuristic Filter, Semantic Vector Anomaly Detector, Runtime Execution Guard).
-- **Artifacts**: [Whitepaper & Technical Documentation](https://revsoc.ai/research/memshield) • [CITATION.cff](https://github.com/MysticX662/MemShieldResearch/blob/main/CITATION.cff)
+### 1. [MemShield Research](https://github.com/MysticX662/MemShieldResearch)
+*Research on defenses against persistent memory poisoning in stateful autonomous AI agents.*
+- **Role:** Sole Author & AI Security Researcher
+- **Work:** Formulated the threat model; designed a three-layer defense using cryptographic provenance, trust-weighted retrieval with temporal decay, and semantic conflict detection; built the Python implementation and reproducibility materials.
+- **Artifacts:** [Published White Paper](https://revsoc.ai/research/memshield) • [Repository](https://github.com/MysticX662/MemShieldResearch)
 
-### 2. 🎓 [Finora — Engineering Case Study](https://github.com/MysticX662/Finora-Engineering-Case-Study)
-*AI-powered financial education platform delivering personalized learning paths and interactive simulations for high school students.*
-- **Role**: Founder & Lead Product Architect
-- **Key Contributions**: Designed the full-stack architecture (React, TypeScript, Supabase); built the adaptive AI assistant ("Finny") with prompt guardrails; engineered student progress & educator analytics workflows.
-- **Platform**: [usefinora.com](https://usefinora.com)
-- *Note: Production infrastructure, student data, and source code remain private under organizational governance.*
+### 2. [Finora — Engineering Case Study](https://github.com/MysticX662/Finora-Engineering-Case-Study)
+*AI-powered financial education platform for students, educators, schools, and youth programs.*
+- **Role:** Co-Founder & Product/Engineering Lead
+- **Work:** Architected the React/TypeScript + Supabase/PostgreSQL platform; led product rebuilds from student, parent, and educator testing; built AI-assisted learning, progress, simulation, and educator workflows.
+- **Current footprint:** 2,000+ registered accounts; 400,000+ organic views; City of Irving youth-program launch; one school deployment plus five additional testing/pilot groups.
+- **Platform:** [usefinora.com](https://usefinora.com)
 
-### 3. 📊 [PermitVision — Case Study](https://github.com/MysticX662/PermitVision-Case-Study)
-*Municipal permit data intelligence and scoring pipeline analyzing 211,000+ permit records into 52,662 ranked opportunities.*
-- **Role**: Lead Data & Systems Engineer
-- **Key Contributions**: Built multi-source ingestion scripts; designed entity resolution algorithms for address/contractor normalization; implemented a deterministic scoring engine.
-- *Note: Commercial data exports and client rules remain private.*
+### 3. [PermitVision — Case Study](https://github.com/MysticX662/PermitVision-Case-Study)
+*Operational data product that converted public permit and property records into ranked HVAC market opportunities.*
+- **Role:** Full-Stack Data Product Developer
+- **Scale:** Processed 211,000+ permits across 163,000 properties into 52,662 ranked leads, surfacing 791 high-priority prospects.
 
-### 4. 🌐 [Threat Intelligence Hub](https://github.com/MysticX662/Threat-Intelligence-Hub)
-*Serverless OSINT threat feed aggregator with Python collectors, versioned JSON feeds, and a Next.js dashboard.*
-- **Role**: Creator & Systems Engineer
-- **Key Contributions**: Engineered automated feed collectors, JSON schema versioning, and static API deployment without server maintenance.
+### 4. [Threat Intelligence Hub](https://github.com/MysticX662/Threat-Intelligence-Hub)
+*Serverless defensive threat-intelligence hub with Python collectors, versioned JSON feeds, and a Next.js interface.*
+- **Role:** Creator & Developer
 
-### 5. 🎯 [FocusGuard](https://github.com/MysticX662/FocusGuard)
-*Computer-vision-based phone detection and focus tracking application.*
-- **Role**: Sole Developer
-- **Key Contributions**: Integrated local YOLO object detection with OpenCV; designed temporal debouncing filters; built zero-cloud privacy architecture.
+### 5. [FocusGuard](https://github.com/MysticX662/FocusGuard)
+*Privacy-first local computer-vision utility for voluntary phone-use detection during focus sessions.*
+- **Role:** Sole Developer
+- **Work:** Integrated YOLO + OpenCV with temporal debouncing and local-only processing.
 
-### 6. 🚀 [FrontierBuild — Case Study](https://github.com/MysticX662/FrontierBuild-Case-Study)
-*Operations and technology case study for student technology builder programs and competition systems.*
-- **Role**: Director of Operations & Technology
-- **Key Contributions**: Built registration workflows, automated judge routing scripts, and managed hackathon competition execution.
+### 6. Frontier Build
+*International startup-style AI competition for student builders.*
+- **Role:** Co-Founder, Technical & Operations Director
+- **Work:** Built registration, submission, participant-management, administrative, and judging systems; supported 100+ teams and 300+ students across 6+ countries.
 
 ---
 
-## Core Technical Competencies
+## Technical Toolkit
 
-- **Languages & Runtimes**: Python, TypeScript, JavaScript, SQL, HTML5/CSS3, Node.js
-- **Frontend & Web Systems**: React, Next.js, Vite, TailwindCSS, State Management
-- **Backend & Cloud Infrastructure**: Supabase, PostgreSQL, Row Level Security (RLS), REST APIs, Serverless Functions
-- **AI & Security Engineering**: LLM System Defense, RAG Architecture, OpenCV, YOLO Object Detection, OSINT Feed Aggregation
-- **Engineering Practices**: Git, CI/CD, Automated Testing, Linux Environment, Architecture Documentation
+- **Languages:** Python, Java, TypeScript, SQL
+- **Frameworks:** React, Next.js, Spring Boot
+- **Data & infrastructure:** Supabase, PostgreSQL, MySQL, Kafka, Spark, Elasticsearch, Docker
+- **AI/ML:** PyTorch, TensorFlow, scikit-learn, OpenCV, YOLO, LLM/RAG systems, AI-agent security
 
 ---
 
-## Technical Portfolio & Privacy Policy
-
-Commercial products, municipal datasets, and institutional partnerships involve private codebases, student privacy protections, and client confidentiality agreements. Selected repositories on this profile function as public engineering case studies, white papers, or open utilities.
-
-For research inquiries, technical discussions, or collaboration:
-- **Platform**: [usefinora.com](https://usefinora.com)
-- **About**: [usefinora.com/about](https://usefinora.com/about)
+Selected public repositories are intended as evidence of technical work. Private production systems, institutional data, and client-specific implementation details are not published.
