@@ -24,18 +24,26 @@
 - **Work:** Built ingestion/normalization, deterministic scoring, geographic heatmaps, property dossiers, owner/occupancy enrichment, street search, and exports.
 - **Scale:** Processed 211,000+ permits across 163,000 properties into 52,662 ranked leads, surfacing 791 high-priority prospects.
 
-### 3. [MemShield Research](https://github.com/MysticX662/MemShieldResearch)
+### 3. Remix Labs
+*Product and AI engineering internship focused on composing applications around fragmented business data and workflows.*
+- **Role:** Product & AI Engineering Intern
+- **Work:** Built a unified operations workspace connecting three APIs/data sources and normalizing inconsistent fields into one interface.
+- **AI builder:** Prototyped a natural-language application builder that mapped user requests to reusable Remix components, API connections, filters, and workflow logic; reduced median prototype setup from ~45 to ~12 minutes across 20 internal test cases.
+- **Human-centered reliability:** Found that generated dashboards could look complete despite stale, missing, or conflicting data; added source/freshness indicators, schema validation, missing-data warnings, and human-review checkpoints, improving successful task completion from 68% to 94% across eight internal testers.
+- **Outcome:** Resulting patterns were incorporated into later internal starter templates and demos.
+
+### 4. [MemShield Research](https://github.com/MysticX662/MemShieldResearch)
 *Research on defenses against persistent memory poisoning in stateful autonomous AI agents.*
 - **Role:** Sole Author & AI Security Researcher
 - **Work:** Formulated the threat model; designed a three-layer defense using cryptographic provenance, trust-weighted retrieval with temporal decay, and semantic conflict detection; built the Python implementation, evaluation tooling, tests, and reproducibility materials.
 - **Artifact:** [Published 23-page technical white paper](https://revsoc.ai/research/memshield) and public research repository.
 
-### 4. [Threat Intelligence Hub](https://github.com/MysticX662/Threat-Intelligence-Hub)
+### 5. [Threat Intelligence Hub](https://github.com/MysticX662/Threat-Intelligence-Hub)
 *Serverless defensive threat-intelligence hub that turns public OSINT feeds into normalized, searchable data.*
 - **Role:** Creator & Developer
 - **Work:** Built Python collectors, normalization/deduplication, versioned JSON feeds, and a Next.js/TypeScript interface with filtering and export.
 
-### 5. [Frontier Build — Case Study](https://github.com/MysticX662/FrontierBuild-Case-Study)
+### 6. [Frontier Build — Case Study](https://github.com/MysticX662/FrontierBuild-Case-Study)
 *International startup-style AI competition for student builders.*
 - **Role:** Co-Founder, Technical & Operations Director
 - **Work:** Built registration, submission, participant-management, administrative, and judging systems; coordinated technical operations for 100+ teams and 300+ students across 6+ countries.
